@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Documentação do Desafio-Muralis-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Código da Aplicação Principal (App.js)
 
-## Available Scripts
+**Descrição:** Este código representa a parte principal de uma aplicação React para cadastro de ingressantes. Ele inclui funcionalidades como preenchimento de dados como nome, curso, estado e cidade, gravação de dados e recarregamento da página.
 
-In the project directory, you can run:
+**Estrutura do Código:**
 
-### `npm start`
+1. **Construtor:**
+   - Inicializa o estado com campos para nome, curso, estado e cidade.
+   - Cria uma referência para o componente "EstadosCidades".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Funções de Manipulação de Dados:**
+   - `handleInputChange`: Atualiza o estado conforme o usuário preenche os campos.
+   - `handleGravar`: Registra os dados no console, limpa os campos e reseta os campos no componente "EstadosCidades".
+   - `handleVoltar`: Recarrega a página.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Funções para Seleção de Estado e Cidade:**
+   - `handleSelectEstado`: Atualiza o estado selecionado.
+   - `handleSelectCidade`: Atualiza a cidade selecionada.
 
-### `npm test`
+4. **Renderização:**
+   - Renderiza um formulário com campos de nome, curso, seleção de estado e cidade.
+   - Utiliza o componente "EstadosCidades" para a seleção de estado e cidade.
+   - Botões para "Gravar" e "Voltar".
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Código do Componente de Estados e Cidades (EstadoCidade.js)
 
-### `npm run build`
+**Descrição:** Este código representa um componente React que permite ao usuário selecionar um estado e, com base nessa seleção, escolher uma cidade. Ele inclui dados de exemplo para estados e cidades.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Estrutura do Código:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **Função de Resetar Campos:**
+   - `resetFields`: Reseta os campos de estado, cidade e lista de cidades.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. **Construtor:**
+   - Inicializa o estado do componente com campos para estado, cidade e uma lista de cidades vazia.
 
-### `npm run eject`
+7. **Funções de Seleção de Estado e Cidade:**
+   - `handleStateChange`: Atualiza o estado selecionado e a lista de cidades com base no estado selecionado.
+   - `handleCityChange`: Atualiza a cidade selecionada.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. **Renderização:**
+   - Renderiza uma interface com campos de seleção para estado e cidade.
+   - Os valores são preenchidos com dados de exemplo, que podem ser substituídos por valores reais.
+   - Você pode inserir capturas de tela para mostrar como a interface aparece com diferentes seleções.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Capturas de Tela do Sistema
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Em branco] 
+- [Preenchido]
+- [Console]
