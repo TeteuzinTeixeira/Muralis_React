@@ -2,6 +2,8 @@
 
 ## Código da Aplicação Principal (App.js)
 
+**Iniciar:** Para iniciar digite npm start em seu console.
+
 **Descrição:** Este código representa a parte principal de uma aplicação React para cadastro de ingressantes. Ele inclui funcionalidades como preenchimento de dados como nome, curso, estado e cidade, gravação de dados e recarregamento da página.
 
 **Estrutura do Código:**
