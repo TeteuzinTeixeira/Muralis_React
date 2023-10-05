@@ -47,6 +47,9 @@
 
 ## Capturas de Tela do Sistema
 
-- [Em branco] 
-- [Preenchido]
-- [Console]
+- [Em branco] ![image](https://github.com/TeteuzinTeixeira/Muralis_React/assets/117493672/5d73e060-bc5d-4947-a6eb-3751ee86c40f)
+
+- [Preenchido]![image](https://github.com/TeteuzinTeixeira/Muralis_React/assets/117493672/0412c813-9ad4-4dd1-941c-2d6ba0cc06fd)
+
+- [Console]![image](https://github.com/TeteuzinTeixeira/Muralis_React/assets/117493672/e34eff2e-e434-4015-9399-d6eb2d0ec182)
+
